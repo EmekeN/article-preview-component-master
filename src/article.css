@@ -131,6 +131,11 @@ h3 {
     padding: 0 5px;
 }
 
+.links {
+    display: flex;
+    align-items: center;
+}
+
 .tooltip {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -180,15 +185,16 @@ h3 {
     .share-expanded-content {
         margin-top: 0;
         width: 100%;
-        margin-left: 50px;
+        justify-content: space-evenly;
+        /* margin-left: 50px; */
     }
 
     .share-expanded button {
         display: flex;
         display: block;
-        margin-left: 21.1%;
-        height: 30px;
-        width: 30px;
+        margin-left: 0;
+        height: 25px;
+        width: 25px;
     }
 
     .share-expanded {
