@@ -1,213 +1,213 @@
 * {
-    --dark-grayish-blue: hsl(217, 19%, 35%);
-    --desaturated-dark-blue: hsl(214, 17%, 51%);
-    --grayish-blue: hsl(212, 23%, 69%);
-    --light-grayish-blue: hsl(212, 23%, 69%);
-    --card-height: 345px;
-    font-family: "Manrope", sans-serif;
+  --dark-grayish-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(212, 23%, 69%);
+  --card-height: 345px;
+  font-family: "Manrope", sans-serif;
 }
 
 body {
-    background: var(--light-grayish-blue);
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
+  background: var(--light-grayish-blue);
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
 }
 
 p {
-    font-weight: 500;
-    padding: 0;
-    margin: 0;
-    font-size: 13px;
-    color: var(--light-grayish-blue);
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  color: var(--light-grayish-blue);
 }
 
 h3 {
-    font-size: 19.5px;
-    color: var(--desaturated-dark-blue);
+  font-size: 19.5px;
+  color: var(--desaturated-dark-blue);
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .article {
-    display: flex;
-    flex-direction: row;
-    background: white;
-    width: 775px;
-    height: var(--card-height);
-    border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  width: 775px;
+  height: var(--card-height);
+  border-radius: 10px;
 }
 
 .preview-img {
-    height: var(--card-height);
-    width: var(--card-height);
-    border-radius: 10px 0 0 10px;
+  height: var(--card-height);
+  width: var(--card-height);
+  border-radius: 10px 0 0 10px;
 }
 
 .content {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    /* width: 483px; */
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  /* width: 483px; */
 }
 
 .info {
-    display: flex;
-    margin-top: 25px;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  width: 100%;
 }
 
 .button-button {
-    border-radius: 76px;
-    height: 35px;
-    width: 35px;
-    border: unset;
-    margin-left: auto;
+  border-radius: 76px;
+  height: 35px;
+  width: 35px;
+  border: unset;
+  margin-left: auto;
 }
 
 .profile-img {
-    width: 50px;
-    height: 50px;
-    align-self: center;
-    border-radius: 40px;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  border-radius: 40px;
 }
 
 .info-stack {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
-    width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  width: -webkit-fill-available;
 }
 
 .bold {
-    font-weight: 700;
-    color: var(--dark-grayish-blue);
+  font-weight: 700;
+  color: var(--dark-grayish-blue);
 }
 
 .dark {
-    background: var(--desaturated-dark-blue);
+  background: var(--desaturated-dark-blue);
 }
 
 .dark img {
-    filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
 
 .share-expanded {
-    display: none;
-    flex-direction: column;
-    background: var(--dark-grayish-blue);
-    z-index: 5;
-    position: relative;
-    width: 220px;
-    height: 49px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    bottom: 120px;
-    left: 66%;
+  display: none;
+  flex-direction: column;
+  background: var(--dark-grayish-blue);
+  z-index: 5;
+  position: relative;
+  width: 220px;
+  height: 49px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  bottom: 120px;
+  left: 66%;
 }
 
 .share-expanded button {
-    display: none;
+  display: none;
 }
 
 .share-expanded-content {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .share-text {
-    font-weight: 300;
-    letter-spacing: 0.419em;
-    font-size: 0.65rem;
-    padding: 0 5px;
+  font-weight: 300;
+  letter-spacing: 0.419em;
+  font-size: 0.65rem;
+  padding: 0 5px;
 }
 
 .links {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .tooltip {
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    z-index: 6;
-    height: 0;
-    width: 0;
-    border-top: 10px solid var(--dark-grayish-blue);
-    position: relative;
-    bottom: -12px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  z-index: 6;
+  height: 0;
+  width: 0;
+  border-top: 10px solid var(--dark-grayish-blue);
+  position: relative;
+  bottom: -12px;
 }
 
 .logo {
-    padding: 0 8px;
+  padding: 0 8px;
 }
 .share-button-expanded {
-    display: none;
+  display: none;
 }
 
 .visible {
-    display: flex;
+  display: flex;
 }
 .attribution {
-    margin-top: 15px;
-    font-size: 11px;
+  margin-top: 15px;
+  font-size: 11px;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 780px) {
-    .article {
-        flex-direction: column;
-        width: 350px;
-        height: auto;
-    }
+  .article {
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+  }
 
-    .content {
-        max-height: 315px;
-    }
+  .content {
+    max-height: 315px;
+  }
 
-    .preview-img {
-        height: 250px;
-        width: auto;
-        border-radius: 10px 10px 0px 0px;
-    }
+  .preview-img {
+    height: 250px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+  }
 
-    .share-expanded-content {
-        margin-top: 0;
-        width: 100%;
-        justify-content: space-evenly;
-        /* margin-left: 50px; */
-    }
+  .share-expanded-content {
+    margin-top: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    /* margin-left: 50px; */
+  }
 
-    .share-expanded button {
-        display: flex;
-        display: block;
-        margin-left: 0;
-        height: 25px;
-        width: 25px;
-    }
+  .share-expanded button {
+    display: flex;
+    display: block;
+    margin-left: 0;
+    height: 25px;
+    width: 25px;
+  }
 
-    .share-expanded {
-        position: relative;
-        bottom: 47px;
-        left: -25px;
-        right: 0;
-        width: 350px;
-        height: 70px;
-        border-radius: 0 0 10px 10px;
-    }
+  .share-expanded {
+    position: relative;
+    bottom: 47px;
+    left: -25px;
+    right: 0;
+    width: 350px;
+    height: 70px;
+    border-radius: 0 0 10px 10px;
+  }
 
-    .tooltip {
-        display: none;
-    }
+  .tooltip {
+    display: none;
+  }
 }
